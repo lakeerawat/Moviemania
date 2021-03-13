@@ -1,0 +1,190 @@
+body{ background-color: #10012a;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    background: url('light.jpg') ;
+    background-size: cover;
+
+}
+.Form1{
+    width: 300px;
+    padding: 30px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ transform: translate(-50%,-50%);
+ background-color: rgba(0,0,0,0.4);
+ text-align: center;
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: 100;
+ color: aqua;
+}
+.Form1 h1{
+    color: white;
+    text-transform: uppercase ;
+    font-weight: 700;
+}
+.Form1 input[type = "text"], .Form1 input[type = "password"]{
+    border: 0ch;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #0376fd;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+} 
+
+.Form1 input[type = "text"]:focus, .Form1 input[type = "password"]:focus{
+    width: 270px;
+    border-color: #ffc400 ;
+}
+.Form1 input[type = "submit"]{
+    border: 0ch;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ffc400;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.Form1 input[type = "submit"]:hover{
+background: #c1d31e;
+
+}
+
+.Form1 button[type = "button"]{
+    border: 0ch;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #d1ff03;;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.Form1 button[type = "button"]:hover{
+background: #10012a;
+
+}
+/* 
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+ 
+    height: 100vh;
+}
+.Signup{
+    width: 500px;
+    padding: 50px;
+ 
+
+ background-color: rgba(0,0,0,0.4);
+ text-align: left;
+ 
+ font-family:Verdana, Geneva, Tahoma, sans-serif;
+ font-weight: 100;
+ color: aqua;
+
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+
+ height: 450px;
+ justify-content: space-evenly;
+ 
+ 
+}
+
+.Signup>div{
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.Signup>div>label{
+    width: 150px;
+}
+.Signup>h1{
+    color: white;
+    text-transform: uppercase ;
+    font-weight: 700;
+    
+}
+.Signup input[type = "text"], .Signup input[type = "password"]{
+    border: 0ch;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #8c03fd;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    
+} 
+#username{
+              margin: auto;  
+}
+
+.Signup input[type = "text"]:focus, .Signup input[type = "password"]:focus{
+    width: 270px;
+    border-color: #ffc400 ;
+}
+.Signup input[type = "submit"]{
+    border: 0ch;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #ffc400;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.Signup input[type = "submit"]:hover{
+background: #b39d56;
+
+}
+
+.Signup button[type = "button"]{
+    border: 0ch;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid #00ff0d;
+    padding: 14px 35px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+
+}
+.Signup button[type = "button"]:hover{
+background: #58598a;
+
+} */

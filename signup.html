@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="stylenew.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src=login.js></script>
+    <title>SignUp</title>
+</head>
+
+<body>
+    <div class="main">
+        <form class="Signup" name="form1" action="login.html" method="POST">
+            <div>
+                <label><strong>Name </strong> </label>
+                <input type="text" placeholder="Enter your Name" value=""
+                        id="username" required />
+            </div>
+            
+            <div> <label>Email </label>
+                <input type="text" placeholder="abc@gmail.com" value="" name="email" id="useremail" required />
+            </div>
+            <div> <label> Password </label>
+                <input name="password" id="password" type="password" onkeyup='check();' placeholder="**must be atleast 8 characters" pattern=".{8,}" required  />
+            </div>
+            <div> <label>Confirm Password </label> 
+                <input name="confirm_password" id="confirm_password" type="password" onkeyup='check();' placeholder="**must be atleast 8 characters" pattern=".{8,}" required  />
+                
+                <span id='message'></span>
+            </div>
+
+            <!-- <label>password :
+                <input name="password" id="password" type="password" onkeyup='check();' />
+              </label>
+              <br>
+              <label>confirm password:
+                <input type="password" name="confirm_password" id="confirm_password"  onkeyup='check();' /> 
+                <span id='message'></span>
+              </label> -->
+
+         
+
+            <div> <input type="submit" name="submit" value="Login" 
+                onclick="ValidateEmail(document.form1.email)"/></div>
+</body>
+
+</html>

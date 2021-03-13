@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="stylenew.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="login.js"></script> 
+    <title>LogIn</title>
+</head>
+<body onload='document.form1.text1.focus()'>
+    <hr color="cyan">
+    <marquee behavior="alternate">
+        <h1 style="color:white"> Welcome to movie mania</h1>
+    </marquee>
+<hr color="cyan" >
+    <div class = "">
+        
+        <form class="Form1" name="form1" action="Moviemania.html" method="POST">
+           Email <input type="text" name="email" placeholder="Enter your username" value="" id="Email-id" required/>
+           Password <br/>
+           <input type="password" placeholder="**must be atleast 8 characters" value="" id="password" pattern=".{8,}"  required/>
+            
+           <input type="submit" name="submit" value="Login" 
+                onclick="ValidateEmail(document.form1.email)"/>
+
+           <!-- <input type="submit"  value="Login" /> -->
+            <!-- <a href="signup.html">
+                
+                <button type="button">SignUp</button>
+            </a> -->
+
+            
+            
+        <!-- <a> new user </a> -->
+
+
+        </form>
+    </div>
+    
+</body>
+</html>
